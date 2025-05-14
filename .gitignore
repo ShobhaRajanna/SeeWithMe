@@ -1,0 +1,5 @@
+.env
+apis.zip
+*.env
+*.zip
+*.log
