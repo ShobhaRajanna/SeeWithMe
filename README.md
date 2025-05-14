@@ -47,6 +47,6 @@ $ python3 assistant.py start
 Finally, you can load the [hosted playground](https://agents-playground.livekit.io/) and connect it.
 
 ##  Detailed Flowchart Overview
-![System Flowchart](assistant/docs/finaldesign.png)
+![System Flowchart](FinalDesign.png)
 
 
