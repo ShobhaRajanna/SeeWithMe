@@ -1,16 +1,14 @@
 # SeeWithMe
 
 # Project Description
-Ally is an intelligent voice + vision assistant designed for the blind and visually impaired.
-It listens to the user, captures camera frames only when needed, analyzes the scene, and responds quickly and naturally.
+Ally is a real-time voice and vision assistant.  
+It listens to user requests, responds naturally using voice, and activates the camera whenever visual understanding is required — such as detecting objects or interpreting a scene.
 
-This project has two implementations:
-
-Without Modularization → All code is inside one file.
-With Modularization (Multi-Agent Design) →
-    llm_agent.py: Handles pure language queries (no vision).
-    vision_agent.py: Handles queries needing image understanding (YOLOv8 + Gemini).
-    main.py: Dynamically switches between agents based on user needs.
+Built using:
+- Deepgram STT + ElevenLabs TTS
+- YOLOv8 + Gemini Vision for scene understanding
+- GPT-4o for intelligent conversations
+- LiveKit Agents for real-time media + audio routing
 
 
 # Setup
